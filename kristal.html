@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Envelope + Letter (Open/Close on Click)</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>MY SSOB.</strong>
+                        <p>
+                            Hi ssob,
+                            If you are wondering og unsa ni it's a letter po hihi btaw kay maot mn kog agi and ganahan ko na tagaan tkag letter I make this one nlng
+                            bsag dli ko IT but I learn it para sa imoha ingn ana tka ka gusto ssob hehe cringe pero gi lang and ikaw pa akong gi ingn ani, 
+                            FOR THE FIRST TIME IN MY ENTIRE LIFE, nag buhat kog ingn ani kay lage kuti pero sige lang para sa imoha buhaton nko yiee HAHAHHA btaw
+                            seryoso na kamusta ssob? hope you're doing well kblo nmn siguro ka ssob na naa rako always para sa imoha, if you need someone na maka talk 
+                            naa rako, if gi kpoy nka u can lean on me as always, if naay nangaway nimo igna lang ko kay d nato cla bati HAHAHAHA wa jd koy ayo ka mo buhat
+                            og ingn ani oyyy HAHAHA btaw ssob ayaw e down imohang self kblo baka na pretty kayka sa akong mga mata tas bsta2 raka mo ingn na dli ka pretty 
+                            hayss dra ka nasayop ssob og kblo lang ka og unsa ka ka gwapa ahh bsta gwapa ka okay kblo kung masuko ka kay gi compliment nasad tka you'll get
+                            used to it wla kang no choice coz u have me na hilig kang e compliment and ssob please take care of yourself pleaseee dli ko ganahan mn gd na 
+                            magkasakit ka, please kaon na sa saktong oras kay ma yayay palang ikaw nananana dli raba ka mo ingn sa ako a og na unsa ka hayss hilig raba ka
+                            mo ingn og SECRET and again wala koy no choice if mo ingn naka ana kay mahadlok sad ko kuliton ka kay basin masuko ka dli ko ganahan masuko ka
+                            tungod nko hehe nag paila nga mahadlok kos imoha well tinood man pd na mahadlok kos imoha HAHAH missyouuusoomuchhh na ssob wabyuuu mwuah. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
